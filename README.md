@@ -7,6 +7,14 @@ Converts a CSV data file exported from REDCap into the NACC's UDS3 fixed-width
 format.
 
 
+HOWTO Get started developping
+---------------------------------
+
+This project uses the [CTSIT Redcap Deployment Repo](https://github.com/ctsit/redcap_deployment)
+for vagrant installation and provisioning. Please follow the instructions found in the README.md in the
+vagrant folder at the root of this project to get started.
+
+
 Files
 -----
 

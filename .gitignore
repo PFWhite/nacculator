@@ -1,0 +1,11 @@
+# vagrant stuff
+.vagrant
+
+# secrets file
+.env
+
+# redcap zip file
+redcap*.zip
+
+# place where the zipfile goes on provision
+vagrant/redcap/
