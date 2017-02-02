@@ -8,6 +8,7 @@
 #    Ruchi Vivek Desai <ruchivdesai@gmail.com>
 #    Taeber Rapczak <taeber@ufl.edu>
 #    Josh Hanna <josh@hanna.io>
+#    Patrick White <pfwhite@ufl.edu, Github: PFWhite>
 
 # Copyright (c) 2015, University of Florida
 # All rights reserved.
@@ -32,6 +33,7 @@ REDCAP_ZIP=`ls $SHARED_FOLDER/redcap*.zip | grep "redcap[0-9]\{1,2\}\.[0-9]\{1,2
 # import helper functions
 . $SHARED_FOLDER/bootstrap_functions.sh
 . $SHARED_FOLDER/redcap_deployment_functions.sh
+. $SHARED_FOLDER/nacculator_functions.sh
 
 # Pick a fast mirror...or at least one that works
 log "Picking a fast mirror in the US..."
